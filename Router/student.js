@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();//creates a new router object
 
 const Students = require('../Model/student');
-
+const firstMiddleware=require("../Middleware/firstmiddleware")
+const secondMiddleware=require("../Middleware/secondmiddlewire")
 router.post("/student", async (req, res) => {
   try {
     const student = req.body;
@@ -15,7 +16,7 @@ router.post("/student", async (req, res) => {
     res.status(400).json({ error: error.message })
   }
 })
-router.get("/student", async (req, res) => {
+router.get("/student",firstMiddleware,secondMiddleware, async (req, res) => {
   try {
     const students = await Students.find();
     res.json(students);
