@@ -2,8 +2,11 @@ const express = require("express");
 const router = express.Router();//creates a new router object
 
 const Students = require('../Model/student');
-const firstMiddleware=require("../Middleware/firstmiddleware")
-const secondMiddleware=require("../Middleware/secondmiddlewire")
+const firstMiddleware = require("../Middleware/firstmiddleware");
+const secondMiddleware = require("../Middleware/secondmiddlewire");
+
+
+
 router.post("/student", async (req, res) => {
   try {
     const student = req.body;
