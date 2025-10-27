@@ -29,7 +29,7 @@ authRouter.post("/login", async (req, res) => {
     }
 
     const jwtToken = jwt.sign(
-      { username: isUser.username, role: isUser },
+      { username: isUser.username, role: isUser.role },
       'your_jwt_secret',
       { expiresIn: '1d' }
     );
