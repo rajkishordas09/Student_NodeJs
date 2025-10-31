@@ -1,7 +1,7 @@
 # Nodejs Project 🚀
 
-A simple Node.js backend project built using **Express**, **MongoDB**, and **Mongoose**.  
-It includes authentication support using **bcryptjs** and automatic server reloading with **nodemon**.
+A simple Node.js backend project built using **Express**,**bcryptjs**, **jsonwebtoken**, **MongoDB**, and **Mongoose**.  
+It includes authentication support using **bcryptjs** , authorization support using **jsonwebtoken** , connect with **mongodb** data base and automatic server reloading with **nodemon**.
 
 ---
 
