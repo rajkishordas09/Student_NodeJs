@@ -7,13 +7,14 @@ It includes authentication support using **bcryptjs** and automatic server reloa
 
 ## 📦 Dependencies
 
-| Package                                            | Description                                       |
-| -------------------------------------------------- | ------------------------------------------------- |
-| [express](https://www.npmjs.com/package/express)   | Web framework for Node.js                         |
-| [mongodb](https://www.npmjs.com/package/mongodb)   | Official MongoDB driver                           |
-| [mongoose](https://www.npmjs.com/package/mongoose) | MongoDB object modeling tool                      |
-| [bcryptjs](https://www.npmjs.com/package/bcryptjs) | Password hashing for authentication               |
-| [nodemon](https://www.npmjs.com/package/nodemon)   | Automatically restarts the server on file changes |
+| Package                                                    | Description                                        |
+| ---------------------------------------------------------- | -------------------------------------------------- |
+| [express](https://www.npmjs.com/package/express)           | Web framework for Node.js                          |
+| [mongodb](https://www.npmjs.com/package/mongodb)           | Official MongoDB driver                            |
+| [mongoose](https://www.npmjs.com/package/mongoose)         | MongoDB object modeling tool                       |
+| [bcryptjs](https://www.npmjs.com/package/bcryptjs)         | Password hashing for authentication                |
+| [nodemon](https://www.npmjs.com/package/nodemon)           | Automatically restarts the server on file changes  |
+| [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) | add jwt token for authentication and authorization |
 
 ---
 
